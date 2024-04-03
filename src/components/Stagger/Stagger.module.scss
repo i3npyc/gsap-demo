@@ -1,0 +1,48 @@
+.wrapper1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+
+
+  &.green {
+    background-color: #28a92b;
+  }
+
+  &.purple {
+    background-color: #8d3dae;
+  }
+
+  &.blue {
+    background-color: #2c7ad2;
+  }
+}
+
+.wrapperBox {
+  margin: 200px 0;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box4 {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
